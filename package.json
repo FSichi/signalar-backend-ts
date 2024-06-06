@@ -1,0 +1,24 @@
+{
+  "name": "signalar-backend",
+  "version": "0.0.1",
+  "description": "Codificacion del Backend del Proyecto Signalar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "FacuSichi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.1",
+    "nodemon": "^3.0.1"
+  }
+}
